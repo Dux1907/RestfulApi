@@ -1,0 +1,25 @@
+GET http://localhost:1907/products
+###
+POST http://localhost:1907/products
+Content-Type: application/json
+
+{
+    "name":"mini-ferrari",
+    "price":20
+}
+###
+GET http://localhost:1907/products/647bb7d4d859771bdedefd08
+###
+PATCH http://localhost:1907/products/647bb7d4d859771bdedefd07
+Content-Type: application/json
+
+{
+    "name":"veyron",
+    "price":1500000
+}
+###
+DELETE  http://localhost:1907/products/647bb7c8d859771bdedefd05
+
+###
+GET http://localhost:1907/prod
+
