@@ -4,21 +4,21 @@ POST http://localhost:1907/products
 Content-Type: application/json
 
 {
-    "name":"mini-ferrari",
-    "price":20
+    "name":"bmw",
+    "price":2010
 }
 ###
-GET http://localhost:1907/products/647bb7d4d859771bdedefd08
+GET http://localhost:1907/products/647cf45b82f9f8cf7e2b4806
 ###
 PATCH http://localhost:1907/products/647bb7d4d859771bdedefd07
 Content-Type: application/json
 
 {
-    "name":"veyron",
-    "price":1500000
+    "name":"big-ferrari",
+    "price":1500
 }
 ###
-DELETE  http://localhost:1907/products/647bb7c8d859771bdedefd05
+DELETE  http://localhost:1907/products/647cf45b82f9f8cf7e2b4806
 
 ###
 GET http://localhost:1907/prod
