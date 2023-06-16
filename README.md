@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RESTful API Documentation</title>
 </head>
 <body>
   <h1>RESTful API Documentation</h1>
@@ -57,4 +56,30 @@ Authorization: Bearer &lt;token&gt;
   <pre>
     <code>
 {
- 
+ "error": "An error occurred while processing the request."
+}
+    </code>
+  </pre>
+  <h2>Getting Started</h2>
+  <p>
+    To use this API, follow these steps:
+  </p>
+  <ol>
+    <li>Clone the repository: <code>git clone https://github.com/your-repo.git</code></li>
+    <li>Install the required dependencies: <code>npm install</code></li>
+    <li>Start the API server: <code>npm start</code></li>
+    <li>Make requests to the API endpoints using your preferred HTTP client.</li>
+  </ol>
+  
+  <h2>Conclusion</h2>
+  <p>
+    This document provides an overview of the RESTful API and how to interact with it. For detailed information on each endpoint and their usage, refer to the API documentation or consult the source code.
+  </p>
+  <p>
+    Feel free to contribute to this project by submitting pull requests or reporting issues.
+  </p>
+  <p>
+    Happy coding!
+  </p>
+</body>
+</html>
